@@ -1,1 +1,0 @@
-biblehub's frontend
