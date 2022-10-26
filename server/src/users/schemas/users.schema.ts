@@ -21,6 +21,11 @@ export const UsersSchema = new mongoose.Schema({
     required: true,
   },
 
+  status: {
+    type: String,
+    enum: ['active', 'inactive'],
+},
+
   resetPasswordToken: {
     type: String,
     required: false,
